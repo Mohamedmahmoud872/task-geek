@@ -37,3 +37,14 @@
 .addTask form button:hover {
   background-color: #03b056;
 }
+
+@media (max-width: 375px) {
+  .addTask .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .addTask form input {
+    width: 100%;
+  }
+}
